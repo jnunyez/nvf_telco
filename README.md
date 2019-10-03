@@ -14,3 +14,14 @@ Apply grub changes:
 host01$ sudo update-grub2
 host01$ sudo reboot
 ```
+
+```
+ cat /proc/meminfo | grep Huge
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+HugePages_Total:   40000
+HugePages_Free:    40000
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+
